@@ -8,6 +8,10 @@ This extension allows users to enrich a video with moving interactive hotspots, 
 
 If you want to get started after cloning this repo, remember to sync packages with `npm i`.
 
+## Pre-requisites
+
+In order to use this shoppable video extension, your videos must have access to published metadata to determine the framerate. See guide [Content Hub Setup.](docs/CONTENT-HUB-SETUP.md)
+
 ## How to install
 
 ### Partial for Shoppabble Video Field and Configuration
@@ -66,6 +70,12 @@ For information on the format structure, and how you might use it in your own re
 ## Visualization
 
 The webapp for the extension can also double as a standalone visualization for the shoppable video field. It will run in visualization mode if you provide `?vse={{vse.domain}}` as a query sting parameter, and will read back the field from the `shoppableVideo` property of your content item. If you want to provide a different top level property, simply provide it in the query string like `fieldName=exampleVideo`.
+
+If you are pointing to the Amplience hosted extension, your visualization URL is:
+
+`https://shoppable-image.extensions.content.amplience.net/?vse={{vse.domain}}`
+
+Otherwise, it will be your hosted domain and path.
 
 The visualization uses the `dc-visualization-sdk` to update its preview as the field is being edited, so you'll be able to try hotspot interaction over your image as you add and move hotspots/keyframes.
 
