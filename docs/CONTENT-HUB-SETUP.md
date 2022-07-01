@@ -15,3 +15,7 @@ The extension uses the framerate field in the video metadata to drive frame adva
 - Open a support ticket with [Amplience Support](https://support.amplience.com/)
 - Ask for the Video Metadata Schema to be published on your Content Hub account.
 - Republish any videos you want to use with the extension once it is added.
+
+When editing, the same need to apply via your Amplience Virtual Staging Environment. See [Creating a VSE](https://amplience.com/docs/virtualstaging/creatingavse.html) for details on how to add schemas to your VSE.
+
+Your will need to ensure that `Video` schema is added to the VSE rules for the VSE used in your Dynamic Content Hub which can be found [here](https://amplience.com/docs/development/cli-tool-examples.html#finding-the-hub-id-and-repository-id)
