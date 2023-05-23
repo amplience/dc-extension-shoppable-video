@@ -8,7 +8,7 @@ This extension allows users to enrich a video with moving interactive hotspots, 
 
 If you want to get started after cloning this repo, remember to sync packages with `npm i`.
 
-This project requires Node 14.x, 16.x or 18.x to build.
+This project requires Node 16.x or 18.x to build.
 
 ## Pre-requisites
 
