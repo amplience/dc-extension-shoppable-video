@@ -8,6 +8,8 @@ This extension allows users to enrich a video with moving interactive hotspots, 
 
 If you want to get started after cloning this repo, remember to sync packages with `npm i`.
 
+This project requires Node 16.x or 18.x to build.
+
 ## Pre-requisites
 
 In order to use this shoppable video extension, your videos must have access to published metadata to determine the framerate. See guide [Content Hub Setup.](docs/CONTENT-HUB-SETUP.md)
