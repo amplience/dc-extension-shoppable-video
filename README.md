@@ -1,5 +1,3 @@
-[![Amplience Dynamic Content](media/header.png)](https://amplience.com/dynamic-content)
-
 ![Dynamic Content Shoppable Video Extension](media/screenshot.png)
 
 # Dynamic Content Shoppable Video Extension
